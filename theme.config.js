@@ -1,6 +1,7 @@
 const YEAR = new Date().getFullYear()
 
 export default {
+titleSuffix: ' – Kakise\'s blog',
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Kakise.
